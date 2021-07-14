@@ -1,0 +1,54 @@
+@import-normalize;
+@import "helper";
+* {
+  margin: 0;
+  padding: 0;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+*::before {
+  box-sizing: border-box;
+}
+
+*::after {
+  box-sizing: border-box;
+}
+
+ul, ol {
+  list-style: none;
+}
+:focus{
+  outline: none;
+}
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+body {
+  font-family: $font-hei;
+  line-height: 1.2;
+  font-size: 16px;
+  background: #f8f9fb;
+}
+button, input{
+  font: inherit;
+}
+.icon {
+  width: 1em;
+  height: 1em;
+  display: inline-block;
+}
+.clearfix:after{
+  content: '';
+  display: block;
+  clear: both;
+}
+.oneLine{
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}

@@ -1,0 +1,4 @@
+interface Cateogry {
+    expense: '-'
+    income: '+'
+}
